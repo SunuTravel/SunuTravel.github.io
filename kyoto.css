@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Lucida Handwriting;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(kyoto.jpg);
+    color: #ecda9f;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    height: 11%;
+    display: flex;
+    align-items: center;
+    background: rgba(0,0,0,0.05);
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 2%;
+    line-height: 80px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #ecda9f;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: .4s;
+}
+nav ul li a.active,
+nav ul li a:hover{
+    background: rgba(133, 133, 133, 0.24);
+	border-radius: 5px;
+}
+.center h1{
+    color: #ecda9f;
+    font-size: 100px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+    padding-bottom: 300px;
+}
+#bloc{
+    padding-top: 80px;
+    width: 900px;
+    margin: auto;
+    background-color: rgba(0,0,0,0.05);
+    text-align: center;
+    height: 1600px;
+    text-align: center;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+}
+img {
+    margin-right: 66px;
+    margin-top: 2px;
+}
+p{
+    text-align: left;
+    margin: 1% 0;
+    font-size: 16pt;
+}
+.flottant1{
+    float: left;
+    width: 400px;
+    height: 300px;
+    margin-left: 20px;
+}
+.flottant2{
+    float: right;
+    width: 400px;
+    height: 300px;
+    margin-left: 20px;
+}
+video{
+    width: 900px;
+}
